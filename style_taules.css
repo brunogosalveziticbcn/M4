@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    /* Faig que tot el text d'aquesta pàgina estigui centrat */
+}
+h1 {
+    color: purple;
+    font-weight: bold;
+    /* Li canvio el color al titol i li aplico un estil en negreta */
+}
+caption {
+    color: blue;
+    /* Es el titol de la taula. En aquest cas li he canviat el color i l'he possat blau */
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    /* Fent referència a la taula primer la posiciono centrada amb el margin-left/right i amb el text align poso tot el text de la taula a l'esquerra */
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* Aqui li estic aplicant estils a totes les parts de la taula. Primer faig que mostri les linies que separen les cel·les, i desprès les colapso per a que no quedin quatrats dintre de quadrats*/
+}
+th {
+    background-color: lightgrey;
+    text-align: center;
+    font-weight: bold;
+    /* Li canvio l'estil als headers de la taula i li afegeixo un color de fons i el text en negreta. Tambè  centro els titols */
+}
